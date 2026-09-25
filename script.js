@@ -1,5 +1,5 @@
 // 1
-document.querySelector("#message").textContent = "Добро пожаловать в JavaScript!";
+document.getElementById("message").textContent = "Добро пожаловать в JavaScript!";
 
 // 2
 let boxes = document.getElementsByClassName("box");
@@ -18,7 +18,7 @@ allBoxes.forEach(function(box) {
 });
 
 // 4
-let highlights = document.querySelectorAll("p.highlight");
+let highlights = document.querySelectorAll(".highlight");
 
 highlights.forEach(function(paragraph) {
     paragraph.style.color = "red";
